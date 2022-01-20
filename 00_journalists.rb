@@ -38,5 +38,9 @@ position = journalists.index("@epenser") + 1
 puts "@epenser se trouve à la position #{position} du tableau."
 puts #saut de ligne
 
-
+#Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)
+while journalists <10
+  puts "compteur = " + compteur.to_s
+  compteur += 1
+end
 
